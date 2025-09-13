@@ -11,7 +11,7 @@ app.get("/demo",(req,res)=>{
     res.status(200).json({message:"App is running now"})
 })
 
-app.get("test",(req,res)=>{
+app.get("/test",(req,res)=>{
     res.status(200).json({message:"Test sussess"})
 })
 
