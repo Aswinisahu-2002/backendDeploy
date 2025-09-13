@@ -8,7 +8,7 @@ app.use(cors({origin:"*"}))
 
 
 app.get("/demo",(req,res)=>{
-    res.status(200).json({message:"App is running"})
+    res.status(200).json({message:"App is running now"})
 })
 
 app.listen(process.env.PORT || 5050,()=>{
