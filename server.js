@@ -1,11 +1,16 @@
 require("dotenv").config()
-const express = require("express")
-const cors = require("cors")
 const connectDb = require("./config/db/db")
-const USER = require("./models/user_models")
+
 
 //Connect db
 connectDb()
+
+
+const express = require("express")
+const cors = require("cors")
+const USER = require("./models/user_models")
+
+
 
 const app = express()
 
